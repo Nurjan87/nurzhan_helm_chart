@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: hakten-memory-demo
+  name: nurzhan-memory-demo
   labels:
-    app: hakten-memory-demo
+    app: nurzhan-memory-demo
 spec:
   containers:
   - name: memory-demo-ctr

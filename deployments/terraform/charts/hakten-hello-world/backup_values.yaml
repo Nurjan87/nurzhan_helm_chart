@@ -1,4 +1,4 @@
-# Default values for hakten-hello-world.
+# Default values for nurzhan-hello-world.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
@@ -35,11 +35,11 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   path: /
   hosts:
-    - hakten-hello-world.fuchicorp.com
+    - nurzhan-hello-world.fuchicorp.com
   tls:
-   - secretName: hakten-hello-world
+   - secretName: nurzhan-hello-world
      hosts:
-       - hakten-hello-world.fuchicorp.com
+       - nurzhan-hello-world.fuchicorp.com
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
